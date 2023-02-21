@@ -1,0 +1,80 @@
+.one{
+    margin: unset;
+}
+.banner-section{
+    background-image: url("../images/watermelon-gbb29b579a_640.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.banner-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.banner-container h1{
+    color: white;
+    font-size: 40px;
+    font-family: Baskerville Old Face;
+}
+.banner-container p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.btn-signup{
+    width: 200px;
+    height: 30px;
+    border: unset;
+    background-color: rgba(135,147,133,0.47);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 100px;
+}
+.btn-signin{
+    width: 200px;
+    height: 30px;
+    border: unset;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 100px;
+}
+.about-section, .about-container{
+    height: 100vh;
+}
+.top-about-container {
+    height: 50vh;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+.top-about-container h2,h4{
+    color: white;
+
+}
+.top-about-container p{
+    color: white;
+    text-align: center;
+}
+.top-about-container button{
+    width: 200px;
+    height: 30px;
+    border: unset;
+    border-radius: 100px;
+    background-color: white;
+    color: orangered;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
